@@ -3,37 +3,48 @@
     <head>
         <title>Data.NHL</title>
     </head>
-    <body>
-        <header class="Title">NHL Data</header>
-      
+    <body style="background-color: lightgray;">
+
+            <h1 class="title" style="text-align: center;">NHL Data</h1>
+        
             <div class="button">
-                <button onclick="window.location.href = 'about.html';">About    
-                </button>
                 <button onclick="window.location.href = 'teams.html';">Team Data
+                </button>
+                <button onclick="window.location.href = 'players.html'">Player Data
+                </button>
+                <button onclick="window.location.href = 'about.html';">About    
                 </button>
                 <button>Donate</button>
             </div>
+
+            <p style="text-align: center;"></p>
+
+            <footer>
+                <p class="footer">Site Version 1.1</p>
+            </footer>
         <style>
             td.year{
                 text-align: center;
             }
 
-            p.donate{
-                text-align:right;
-                margin-top: 50px;
-                margin-right: 50px;
-            }
-
-            header.Title{
+            .title{
                 text-align: center;
                 font-weight: bold;
-                font-size:300% ;
+                font-size:500% ;
                 margin-top: 50px;
+                margin-bottom: 0px;
             }
             
             .button{
                 text-align: center;
+                margin-top: 0px;
             }
+
+            .footer{
+            text-align: center;
+            background-color: lightgray;
+            }
+
         </style>
     </body>
 </html>
